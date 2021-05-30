@@ -1,0 +1,38 @@
+.slider_box {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.audio_option {
+  position: relative;
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.play_audio {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.play_icon {
+  font-size: 30px;
+}
+.translate {
+  position: absolute;
+  right: 10px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid #1890ff;
+  color: #1890ff;
+}
+:hover .translate {
+  cursor: pointer;
+}

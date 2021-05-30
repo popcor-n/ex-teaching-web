@@ -1,0 +1,76 @@
+.vedio_controls {
+  width: 100%;
+}
+
+.vedio_controls_box {
+  height: 35px;
+  width: 100%;
+  display: flex;
+}
+
+.play_icon {
+  font-size: 30px;
+  color: #fff;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+:hover .play_icon {
+  cursor: pointer;
+}
+
+.play_back {
+  font-size: 25px;
+  color: #fff;
+  margin-left: 10px;
+}
+
+:hover .play_back {
+  cursor: pointer;
+}
+
+.play_forward {
+  font-size: 25px;
+  color: #fff;
+  margin-left: 10px;
+}
+
+:hover .play_forward {
+  cursor: pointer;
+}
+
+.ant-slider {
+  margin: 4px 6px 2px 10px;
+}
+
+.all_veiw {
+  font-size: 18px;
+  color: #fff;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+:hover .all_veiw {
+  cursor: pointer;
+}
+.vedio_control_father {
+  width: 100%;
+  min-height: 60px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 200;
+}
+.vedio_controls_button {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.vedio_controls_volumns {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
